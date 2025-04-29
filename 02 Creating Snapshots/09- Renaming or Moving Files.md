@@ -51,7 +51,7 @@ When we use the `git mv` command the changes are applied to both the **Working D
 
 
 ```zsh
-mv file.txt main.js
+>mv file.txt main.js
 git add file.txt
 git add main.js
 
