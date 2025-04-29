@@ -42,6 +42,11 @@ Each commit contains a unique identifier, and also information of what was chang
 
 ```zsh
 commit f289d8ab48e5530b659931667edbc73e3eb10e29 (HEAD -> main, origin/main)
+
+change file1
+add file1
+delete file2
+add file2  (to Staging area to delete the file in that place)
 Author: Miguel Pimenta <my-email@code.com>
 Date:   Sat Feb 27 23:15:48 2021 -0300
 
