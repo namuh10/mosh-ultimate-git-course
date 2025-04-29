@@ -29,6 +29,11 @@ We can also use patterns to add files.
 
 ```zsh
 git add *.md
++
+
+be careful
+```zsh
+git add .
 ```
 
 These will add all the files with an `.md` extension.
