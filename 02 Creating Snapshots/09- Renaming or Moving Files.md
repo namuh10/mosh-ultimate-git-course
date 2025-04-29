@@ -34,7 +34,7 @@ Changes to be committed:
 Git recognizes that we renamed the file ank marks it as renamed. Like in the delete operation, there is a Git command to rename files:
 
 Then we commit the changes:
-
+p
 ```zsh
 ❯ git commit -m 'Rename file'
 [main aec2762] Rename file
@@ -47,3 +47,15 @@ git mv <current file> <new name>
 ```
 
 When we use the `git mv` command the changes are applied to both the **Working Directory** and the **Staging Area**.
+
+
+
+```zsh
+mv file.txt main.js
+git add file.txt
+git add main.js
+
+
+git mv main.js main.txt
+
+```
